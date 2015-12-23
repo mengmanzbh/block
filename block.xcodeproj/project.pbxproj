@@ -15,6 +15,8 @@
 		D5ADB7E01C2A2BE3009EE41D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5ADB7DE1C2A2BE3009EE41D /* LaunchScreen.storyboard */; };
 		D5ADB7EB1C2A2BE4009EE41D /* blockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5ADB7EA1C2A2BE4009EE41D /* blockTests.m */; };
 		D5ADB7F61C2A2BE4009EE41D /* blockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5ADB7F51C2A2BE4009EE41D /* blockUITests.m */; };
+		D5ADB8061C2A2D49009EE41D /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5ADB8041C2A2D49009EE41D /* CustomTableViewCell.m */; };
+		D5ADB8071C2A2D49009EE41D /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5ADB8051C2A2D49009EE41D /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		D5ADB7F11C2A2BE4009EE41D /* blockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5ADB7F51C2A2BE4009EE41D /* blockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blockUITests.m; sourceTree = "<group>"; };
 		D5ADB7F71C2A2BE4009EE41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5ADB8031C2A2D49009EE41D /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		D5ADB8041C2A2D49009EE41D /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		D5ADB8051C2A2D49009EE41D /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,9 @@
 				D5ADB7D61C2A2BE3009EE41D /* ViewController.h */,
 				D5ADB7D71C2A2BE3009EE41D /* ViewController.m */,
 				D5ADB7D91C2A2BE3009EE41D /* Main.storyboard */,
+				D5ADB8031C2A2D49009EE41D /* CustomTableViewCell.h */,
+				D5ADB8041C2A2D49009EE41D /* CustomTableViewCell.m */,
+				D5ADB8051C2A2D49009EE41D /* CustomTableViewCell.xib */,
 				D5ADB7DC1C2A2BE3009EE41D /* Assets.xcassets */,
 				D5ADB7DE1C2A2BE3009EE41D /* LaunchScreen.storyboard */,
 				D5ADB7E11C2A2BE3009EE41D /* Info.plist */,
@@ -245,6 +253,7 @@
 			files = (
 				D5ADB7E01C2A2BE3009EE41D /* LaunchScreen.storyboard in Resources */,
 				D5ADB7DD1C2A2BE3009EE41D /* Assets.xcassets in Resources */,
+				D5ADB8071C2A2D49009EE41D /* CustomTableViewCell.xib in Resources */,
 				D5ADB7DB1C2A2BE3009EE41D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +281,7 @@
 			files = (
 				D5ADB7D81C2A2BE3009EE41D /* ViewController.m in Sources */,
 				D5ADB7D51C2A2BE3009EE41D /* AppDelegate.m in Sources */,
+				D5ADB8061C2A2D49009EE41D /* CustomTableViewCell.m in Sources */,
 				D5ADB7D21C2A2BE3009EE41D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
