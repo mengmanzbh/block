@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
-
+@property (strong, nonatomic) NSMutableArray *fakeData1;//存放假数据
 @end
 
 @implementation AppDelegate
@@ -18,6 +18,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
+    
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
