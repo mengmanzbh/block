@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
-
+@property (strong, nonatomic) NSMutableArray *fakeData1;//存放假数据
 @end
 
 @implementation AppDelegate
