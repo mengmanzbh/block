@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD5B1E701D3BD24400086E52 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5B1E6E1D3BD24400086E52 /* SecondViewController.m */; };
+		CD5B1E711D3BD24400086E52 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5B1E6F1D3BD24400086E52 /* SecondViewController.xib */; };
 		D5ADB7D21C2A2BE3009EE41D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5ADB7D11C2A2BE3009EE41D /* main.m */; };
 		D5ADB7D51C2A2BE3009EE41D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5ADB7D41C2A2BE3009EE41D /* AppDelegate.m */; };
 		D5ADB7D81C2A2BE3009EE41D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5ADB7D71C2A2BE3009EE41D /* ViewController.m */; };
@@ -37,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD5B1E6D1D3BD24400086E52 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CD5B1E6E1D3BD24400086E52 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CD5B1E6F1D3BD24400086E52 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		D5ADB7CD1C2A2BE3009EE41D /* block.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = block.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5ADB7D11C2A2BE3009EE41D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D5ADB7D31C2A2BE3009EE41D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +113,9 @@
 			children = (
 				D5ADB7D31C2A2BE3009EE41D /* AppDelegate.h */,
 				D5ADB7D41C2A2BE3009EE41D /* AppDelegate.m */,
+				CD5B1E6D1D3BD24400086E52 /* SecondViewController.h */,
+				CD5B1E6E1D3BD24400086E52 /* SecondViewController.m */,
+				CD5B1E6F1D3BD24400086E52 /* SecondViewController.xib */,
 				D5ADB7D61C2A2BE3009EE41D /* ViewController.h */,
 				D5ADB7D71C2A2BE3009EE41D /* ViewController.m */,
 				D5ADB7D91C2A2BE3009EE41D /* Main.storyboard */,
@@ -255,6 +263,7 @@
 				D5ADB7DD1C2A2BE3009EE41D /* Assets.xcassets in Resources */,
 				D5ADB8071C2A2D49009EE41D /* CustomTableViewCell.xib in Resources */,
 				D5ADB7DB1C2A2BE3009EE41D /* Main.storyboard in Resources */,
+				CD5B1E711D3BD24400086E52 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5B1E701D3BD24400086E52 /* SecondViewController.m in Sources */,
 				D5ADB7D81C2A2BE3009EE41D /* ViewController.m in Sources */,
 				D5ADB7D51C2A2BE3009EE41D /* AppDelegate.m in Sources */,
 				D5ADB8061C2A2D49009EE41D /* CustomTableViewCell.m in Sources */,
@@ -506,6 +516,7 @@
 				D5ADB7FC1C2A2BE4009EE41D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5ADB7FD1C2A2BE4009EE41D /* Build configuration list for PBXNativeTarget "blockTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +525,7 @@
 				D5ADB7FF1C2A2BE4009EE41D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5ADB8001C2A2BE4009EE41D /* Build configuration list for PBXNativeTarget "blockUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +534,7 @@
 				D5ADB8021C2A2BE4009EE41D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
