@@ -9,7 +9,7 @@
 #import "SecondViewController.h"
 
 @interface SecondViewController ()
-
+@property (strong, nonatomic) NSMutableArray *OK;//存放假数据
 @end
 
 @implementation SecondViewController
